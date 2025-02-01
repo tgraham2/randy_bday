@@ -1,0 +1,20 @@
+# Ignore build artifacts
+build/
+devel/
+log/
+install/
+
+# Ignore editor and system files
+*.swp
+*.swo
+*.pyc
+.DS_Store
+.vscode/
+.idea/
+
+# Ignore ROS dependencies
+src/CMakeLists.txt
+src/CMakeCache.txt
+src/*.egg-info
+src/*.pyc
+
